@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'PokemonSolid';
+  src: url('../fonts/PokemonSolid.ttf') format('truetype');
+}
+
+.DeQue {
+  padding: 15px;
+}
+
+.DeQue ul {
+  list-style-type: none;
+}
+
+.DeQue h1 {
+  font-size: 40px;
+  color: #10b4ee;
+  text-align: center;
+  font-family: "PokemonSolid", sans-serif;
+  margin-bottom: 10px;
+}
+
+@font-face {
+  font-family: 'VT323';
+  src: url('../fonts/VT323.ttf') format('truetype');
+}
+
+.DeQue p {
+  font-size: 24px;
+  color: #ffcdc5;
+  text-align: justify;
+  font-family: "VT323", monospace;
+  margin-bottom: 20px;
+}
+
+.pokedex {
+  text-align: center;
+}

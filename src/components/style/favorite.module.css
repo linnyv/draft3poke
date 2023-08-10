@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'PokemonSolid';
+  src: url('../fonts/PokemonSolid.ttf') format('truetype');
+}
+
+.gallery {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 15px;
+  justify-items: center;
+  align-items: start;
+}
+.gallery h1 {
+  margin-top: 0;
+  font-size: 40px;
+  color: #10b4ee;
+  text-align: center;
+  font-family: "PokemonSolid", sans-serif;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #bdff73;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: grove;
+  width: 100%;
+  height: auto;
+}
